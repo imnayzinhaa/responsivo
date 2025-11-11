@@ -1,0 +1,156 @@
+/* CSS Document */
+@media screen and (max-width: 1199px) and (min-width: 600px){ 
+    *{
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body, html{
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #666;
+    }
+    nav{
+        display: none;
+    }
+    #menu{
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 1%;
+        font-size: 26px;
+        text-align: right;
+        position: fixed;
+        height: 45px;
+        z-index: 1;
+    }
+    #submenu{
+        background-color: rgba(51, 51, 51, 0.9);
+        width: 100%;
+        z-index: 2;
+        padding: 1%;
+        position: fixed;
+        margin-top: 45px;
+        display: none;
+    }
+    #submenu a{
+        display: block;
+        text-align: right;
+        color: #fff;
+        padding: 1.5%;
+        
+    }
+    header, header img{
+        width: 100%;
+    }
+    header{
+        padding-top: 45px;
+    }
+    .titulo{
+        color: #A88A5F;
+        text-align: center;
+        font-size: 26px;
+    }
+    .subtitulo{
+        color: #A88A5F;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 5%;
+    }
+    section{
+        width: 100%;
+        min-height: 50%;
+        padding: 2%;
+    }
+    #departamentos article{
+        width: 45%;
+        margin: 2.5%;
+        float: left;
+        position: relative;
+    }
+    #departamentos article img{
+        width: 100%;
+    }
+    #departamentos article div{
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 5%;
+        margin: 5%;
+        padding: 5%;
+        text-align: center;
+    }
+    .titulodep{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 25% 0 10%;
+    }
+    #galeria{
+        padding: 10%;
+        margin-top: 10%;
+        padding-bottom: 5%;
+        clear: both;
+    }
+    .slick-prev:before, .slick-next:before{
+        color: #333;
+    }
+    #blog article{
+        width: 95%;
+        margin: 2.5%;
+        height: 200px;
+        text-align: center;
+        border: 1px solid #A88A5F;
+        border-radius: 10px;
+        padding: 2%;
+        color: #A88A5F;
+        overflow: hidden;
+    }
+    #blog p{
+        text-align: justify;
+        margin-top: 1%;
+    }
+    #blog article i{
+        font-size: 30px;
+        margin-top: 4%;
+    }
+    #blog{
+        height: 130%;
+        margin-top: 5%;
+    }
+    #contato{
+        height: 142%;
+    }
+    #contato article{
+        width: 100%;
+        height: 400px;
+        padding: 1%;
+    }
+    .campo{
+        width: 100%;
+        margin-bottom: 0.5%;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        resize: none;
+    }
+    .botao{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        background-color: #666;
+        color: #fff;
+        font-size: 16px;
+    }
+    footer{
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 1%;
+        text-align: center;
+    }
+}
